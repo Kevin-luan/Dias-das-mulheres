@@ -1,0 +1,93 @@
+/* Estilo para o corpo */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff9ecf, #ffd6ec);
+    text-align: center;
+    color: #5a0040;
+}
+
+/* Cabeçalho */
+header {
+    padding: 40px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+/* Cartão de Mensagem */
+.card {
+    background: white;
+    margin: 40px auto;
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background: #ff4fa3;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #d93688;
+}
+
+/* Carrossel */
+.carrossel {
+    width: 100%;
+    max-width: 150px;
+    margin: 40px auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slide {
+    width: 100%;
+    max-width: 500px;  /* Ajuste para o tamanho máximo */
+    height: auto;  /* Ajusta a altura proporcionalmente */
+    display: none;
+}
+
+/* Botões de navegação do carrossel */
+.anterior, .proximo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.anterior {
+    left: 10px;
+}
+
+.proximo {
+    right: 10px;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 14px;
+}
+
+a{
+    color: #ff4fa3;
+    text-decoration: none ;
+}
